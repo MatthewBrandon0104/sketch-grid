@@ -1,16 +1,16 @@
 $(document).ready(function() {
 var reply = 4;
 var boxDim = function () {
-								z = 100 / reply +'%';
-                return z;
+	z = 100 / reply +'%';
+        return z;
 }
 
 var addBox = function() {
-								$('.wrapper').append('<div class="box"></div>');
+	$('.wrapper').append('<div class="box"></div>');
 }
 
 var changeDim = function () {
-								$('.box').css({width: boxDim, height: boxDim});
+	$('.box').css({width: boxDim, height: boxDim});
 }
 
 var loop = function () {
